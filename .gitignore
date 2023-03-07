@@ -1,0 +1,135 @@
+#==== WORDPRESS
+# Config
+/wp-config.php
+
+# Logs
+/wp-content/debug.log
+
+# Uploads
+/wp-content/uploads
+
+# Thème
+/wp-content/languages
+/wp-content/themes/*/_dev/node_modules
+/wp-content/themes/*/_dev/package-lock.json
+/wp-content/themes/*/_dev/img/*.webp
+/wp-content/themes/*/dist/img/*.webp
+
+#Plugins
+/wp-content/cache/
+
+
+#==== ARCHIVES
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.gzip
+*.tgz
+*.bzip
+*.bzip2
+*.bz2
+*.xz
+*.lzma
+*.cab
+*.xar
+
+*.iso
+*.tar
+
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+*.txz
+
+#==== BACKUP
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+#==== DOCKER
+/.docker
+/prestashop/.docker
+
+#==== VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+#==== WINDOWS
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+#==== MAC
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+#==== SASS
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+/_da
+/_online
+/_bdd
+/_src
+/_doc
