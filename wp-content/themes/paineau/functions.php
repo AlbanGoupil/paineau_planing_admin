@@ -141,7 +141,9 @@ function paineau_scripts() {
 	wp_enqueue_style( 'paineau-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'paineau-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'paineau-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	//enqueue jquery
+	wp_enqueue_script( 'jquery' );
+
 	//enqueue fullcalendar js
 	wp_enqueue_script( 'paineau-scripts', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), _S_VERSION, true );
 
